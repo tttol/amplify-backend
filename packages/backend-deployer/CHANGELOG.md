@@ -1,5 +1,13 @@
 # @aws-amplify/backend-deployer
 
+## 1.1.13
+
+### Patch Changes
+
+- 642b441: catch and wrap deployment in progress when deleting the backend
+- Updated dependencies [abff5a0]
+  - @aws-amplify/platform-core@1.4.1
+
 ## 1.1.12
 
 ### Patch Changes

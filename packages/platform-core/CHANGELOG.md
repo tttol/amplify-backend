@@ -1,5 +1,11 @@
 # @aws-amplify/platform-core
 
+## 1.4.1
+
+### Patch Changes
+
+- abff5a0: add InsufficientMemorySpaceError wrapping
+
 ## 1.4.0
 
 ### Minor Changes
