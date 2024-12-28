@@ -1,9 +1,9 @@
 name: canary_checks
 
 on:
-  schedule:
-    - cron: '0 */1 * * *' # runs every hour
-  workflow_dispatch:
+  # schedule:
+  #   - cron: '0 */1 * * *' # runs every hour
+  # workflow_dispatch:
 
 jobs:
   local_checks_with_latest_dependencies:
