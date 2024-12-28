@@ -16,7 +16,7 @@ on:
     # taking into account that
     # 1) scheduled runs may not fire at exact prescribed time;
     # 2) transient failures may happen and auto recover;
-    - cron: '0 0,6,12,18 * * *'
+    # - cron: '0 0,6,12,18 * * *'
   workflow_dispatch:
     inputs:
       desired-cdk-version:
